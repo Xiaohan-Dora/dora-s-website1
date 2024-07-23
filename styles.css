@@ -1,0 +1,21 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  font-size: 50px;
+  color: darkgreen;
+}
+.team-section {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  max-width: 500px;
+}

@@ -1,0 +1,57 @@
+<!-- saved from url=(0107)http://www.build-it-yourself.com/members/biy-projects/proj-web-design/website-templates/template-index.html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- The header section is used by search engines and browsers to describe your page. -->
+    <title>Browser tab text</title>
+    <meta
+      name="�keywords�"
+      content="key words for searches such as: hot shots, smarties, your name"
+    />
+    <meta
+      name="�description�"
+      content="website description returned by search engine"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "YOUR_PUBLIC_KEY",
+        });
+      })();
+    </script>
+  </head>
+
+  <body>
+    <!-- The Title Section Starts Here -->
+    <div class="container">
+      <h1>Dora's Save the Planet Website</h1>
+
+      <!-- Navigation -->
+
+      <img class="pollution-image" src="images\R.jpg" alt="Build-It-Yourself" />
+      <p>The earth is full of industrial pollution.</p>
+      <p>
+        <a href="earth-picture.html"> see more pictures of the earth </a>
+      </p>
+      <p>
+        <a href="things-we-can-do.html"> see things we can do </a>
+      </p>
+      <p>
+        <a href="about-me.html"> see about-me page </a>
+      </p>
+      <form id="email-form">
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" required />
+        <button type="button" onclick="sendEmail()">send email</button>
+      </form>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
