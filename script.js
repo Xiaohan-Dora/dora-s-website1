@@ -11,7 +11,7 @@ function sendEmail() {
     to_email: email,
     subject: "see more information about how to save earth",
     message:
-      "Here are some environmental charities and organizations worth supporting:" +
+      "Here are some environmental charities and organizations worth supporting: \n" +
       " 1.Sierra Club Foundation: A grassroots environmental organization. \n" +
       "2.Greenpeace: One of the best-known environmental NGOs. \n" +
       "3.National Resources Defense Council: Provides legal support for environmental causes. \n" +
